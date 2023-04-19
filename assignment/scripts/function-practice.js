@@ -57,16 +57,21 @@ if (array.length > 0) {
 }
 console.log(getLast([7, 9, 0, 10]));
 
-
-// 7. Function to find a value in an array. Return true if the
+// 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
-//    DO NOT use Array.includes, Array.indexOf, or Array.find
-//function find( value, array ){
-  if (value === value) {
-    return;
-  } else () => {
+//    DO NOT use Array.includes, Array.indexOf, or Array.find 
+let findNumbers = [7, 9, 10, 15, 16];
+function find( value, array )
+for (let i = 0; i < array.length; i++){
+    if (array[i] === value){
+    return true;
+  } else {
   return false;
-  };
+  }
+  }
+
+
+console.log(find(0,9)); 
 
 
 // ----------------------
