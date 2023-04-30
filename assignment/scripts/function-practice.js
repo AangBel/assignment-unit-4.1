@@ -53,7 +53,7 @@ function getLast(array) {
 if (array.length > 0) {
   return array[array.length -1]
 }else {
-  return null;
+  return undefined;
 }
 }
 console.log(getLast([7, 9, 0, 10]));
