@@ -37,7 +37,7 @@ console.log(multiplyThree(5, 4, 9));
 function isPositive(number) {
   if (number > 0) {
     return true;
-  } else { number <= 0;
+  } else { //number <= 0;
   return false;
 }
 }
